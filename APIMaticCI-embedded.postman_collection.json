@@ -30,7 +30,7 @@
 					},
 					{
 						"key": "Authorization",
-						"value": "Bearer {{access_token}}"
+						"value": "X-Auth-Key {{access_token}}"
 					}
 				],
 				"body": {
@@ -38,10 +38,9 @@
 					"formdata": [
 						{
 							"key": "file",
-							"value": "",
 							"description": "",
 							"type": "file",
-							"src": "test-integration-embedded-portal/telstra-messaging-api.json"
+							"src": "telstra-messaging-api.json"
 						}
 					]
 				},
