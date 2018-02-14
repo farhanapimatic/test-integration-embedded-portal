@@ -40,7 +40,7 @@
 							"key": "file",
 							"description": "",
 							"type": "file",
-							"src": "telstra-messaging-api.json"
+							"src": "test-integration-embedded-portal/telstra-messaging-api.json"
 						}
 					]
 				},
